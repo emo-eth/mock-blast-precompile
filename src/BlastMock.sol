@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 
-import {IBlast, YieldMode, GasMode} from "src/IBlast.sol";
+import {IBlast, YieldMode, GasMode} from "./IBlast.sol";
 
 contract BlastMock is IBlast {
     // events for all methods

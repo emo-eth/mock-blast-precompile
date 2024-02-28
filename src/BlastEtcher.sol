@@ -2,8 +2,8 @@
 pragma solidity ^0.8.17;
 
 import {Vm} from "forge-std/Vm.sol";
-import {IBlast} from "src/IBlast.sol";
-import {BlastMock} from "src/BlastMock.sol";
+import {IBlast} from "./IBlast.sol";
+import {BlastMock} from "./BlastMock.sol";
 
 contract BlastEtcher {
     Vm private constant vm = Vm(address(uint160(uint256(keccak256("hevm cheat code")))));
